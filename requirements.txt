@@ -2,5 +2,5 @@ aiogram
 asyncio
 datetime
 requests
-json
+pyjson
 sqlite3
