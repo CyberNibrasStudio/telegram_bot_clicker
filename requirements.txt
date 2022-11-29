@@ -1,7 +1,6 @@
 aiogram
 asyncio
 datetime
-random
 requests
 json
 sqlite3
