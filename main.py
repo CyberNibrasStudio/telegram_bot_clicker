@@ -1,5 +1,4 @@
 import asyncio
-import logging
 import aiogram.utils.markdown as md
 from aiogram import Bot, Dispatcher, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
@@ -26,8 +25,6 @@ req = json.loads(h.text)
 
 
 storage = MemoryStorage()
-# Включаем логирование, чтобы не пропустить важные сообщения
-logging.basicConfig(level=logging.INFO)
 # Объект бота
 bot = Bot(token=config.bot_token.get_secret_value())
 # Диспетчер
