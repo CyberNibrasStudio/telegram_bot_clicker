@@ -4,3 +4,4 @@ datetime
 requests
 pyjson
 pysqlite3
+pydantic
