@@ -1,0 +1,8 @@
+aiogram
+asyncio
+logging
+datetime
+random
+requests
+json
+sqlite3
