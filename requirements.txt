@@ -3,4 +3,4 @@ asyncio
 datetime
 requests
 pyjson
-sqlite3
+pysqlite3
